@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+}
+.span1{
+    display: flex;
+    flex-direction: column;
+}
+.h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.h1 {
+    text-align: center;
+    font-family: 'fantasy sans-serif';
+}
+
+.caroussel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caroussel img{
+    width: 230px;
+    height: auto;
+    border: 5px solid black;
+}
+
+.span {
+    margin: 2rem 1rem;
+    text-align: center;
+    text-justify: auto;
+}
+
+
+@media(min-width: 70rem){
+    .caroussel {
+        flex-direction: row;
+    }
+    .span{
+        margin: 2rem 20rem;
+    }
+}
+
+
+
+@media(min-width: 90rem){
+
+    .span1{
+        margin-top: 10%;
+    }
+    .caroussel {
+        flex-direction: row;
+        margin: 5rem;
+       
+    }
+    .span{
+        margin: 2rem 20rem;
+        padding: 5% 15%;
+    }
+}

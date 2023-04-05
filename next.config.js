@@ -1,6 +1,20 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
+
+  images: {
+    unoptimized : true,
+    loader: 'custom',
+    loaderFile: './image-loader.js'
+  },
+
+  experimental:{
+    fontLoaders:[
+      {
+        loader:'@next/font/google', options: {subsets:['latin']}
+      }
+    ]
+  }
 }
 
-module.exports = nextConfig
+// expermiental objet de configuration

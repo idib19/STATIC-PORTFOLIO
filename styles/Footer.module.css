@@ -1,0 +1,25 @@
+.footer {
+    padding: .5rem;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p {
+    margin: 0;
+    margin-top: 5px;
+    font-family: fantasy;
+}
+
+.logo{
+width: 20px;
+height: auto;
+background-color: transparent;
+}
